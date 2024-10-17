@@ -1,0 +1,49 @@
+body{
+    background-color: #000000;
+}
+.main{ 
+    width: 40%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(161, 102, 54, 0.63);  
+    border-radius: 20px;
+    margin-top: 80px;
+    }
+
+.child{
+    height: 50vh;
+    margin: auto; 
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+    align-items: center; 
+
+}
+.in{
+    height: 40px; 
+    background-color: rgb(227, 227, 227); 
+    color: rgb(0, 0, 0); 
+    border: none; 
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    }
+
+button{ 
+    text-align: center;
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%; 
+    border: 2px dotted rgb(255, 255, 255);
+    font-size: 50px;
+    display: inline;
+    background-color: rgb(255, 157, 0);
+    margin-top: 15%;
+}
+.child :nth-last-child(1){
+    margin-top: 24%;
+    width: 353px;                   
+}
